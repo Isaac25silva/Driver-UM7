@@ -11,7 +11,7 @@ find_package( Boost REQUIRED )
 include_directories(
   include
   ${Boost_INCLUDE_DIRS}
-  ../IMU/include/um7
+  ./include/um7
   ./serial/include
 
 )

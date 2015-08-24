@@ -32,3 +32,5 @@ Boost library dependencies:
     $ cmake ..  
     $ make  
     $ sudo make install  
+
+chmod 777 /dev/ttyUSB*
