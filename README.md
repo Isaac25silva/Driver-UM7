@@ -7,8 +7,8 @@ Supports standard data and mag topics as well as providing temperature and rpy o
 ###Compile (linux)
 
 To compile execute the command on directory:
-cmake CMakeLists.txt
-make all
+*cmake CMakeLists.txt
+*make all
 
 ###Execute
 
