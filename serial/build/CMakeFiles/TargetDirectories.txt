@@ -1,0 +1,2 @@
+/home/fei/RoboFEI-HT/IMU/serial/build/CMakeFiles/serial.dir
+/home/fei/RoboFEI-HT/IMU/serial/build/CMakeFiles/serial_example.dir
