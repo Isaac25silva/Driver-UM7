@@ -18,7 +18,7 @@ To execute:
 The port address of the UM7 is "*/dev/ttyUSB0*", you can change the address in the file *imu.cpp*.
 
 Ubuntu Build Notes
-==================
+------------------
 **apt-get should have these**
 
 Boost library dependencies:  
