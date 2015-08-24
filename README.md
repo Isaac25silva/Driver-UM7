@@ -27,8 +27,8 @@ Boost library dependencies:
 
 **If you need install serial.h**
     To install *serial.h* execute the commands on serial folder (first remove the build folder):
-    $ mkdir build
-    $ cd build
-    $ cmake ..
-    $ make
-    $ sudo make install
+        $ mkdir build
+        $ cd build
+        $ cmake ..
+        $ make
+        $ sudo make install
