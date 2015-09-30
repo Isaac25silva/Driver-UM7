@@ -6,10 +6,11 @@ Supports standard data and mag topics as well as providing temperature and rpy o
 
 ###Compile (linux)
 
-To compile execute the command on directory: 
+To compile execute the command on directory.   
 ::
-    $ cmake CMakeLists.txt  
-    $ make all
+
+    cmake CMakeLists.txt  
+    make all
 
 ###Execute
 
@@ -23,15 +24,19 @@ Ubuntu Build Notes
 **apt-get should have these**
 
 Boost library dependencies:  
-    $ sudo apt-get install libboost-all-dev
+::
+
+    sudo apt-get install libboost-all-dev
 
 
 **If you need install serial.h**  
     To install *serial.h* execute the commands on serial folder (first remove the build folder):  
-    $ mkdir build  
-    $ cd build  
-    $ cmake ..  
-    $ make  
-    $ sudo make install  
+::
+
+    mkdir build  
+    cd build  
+    cmake ..  
+    make  
+    sudo make install  
 
 chmod 777 /dev/ttyUSB*
