@@ -14,7 +14,8 @@ To compile execute the command on directory.
 ###Execute
 
 To execute:  
-    $ ./imu
+
+    ./imu
 
 The port address of the UM7 is "*/dev/ttyUSB0*", you can change the address in the file *imu.cpp*.
 
