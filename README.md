@@ -1,7 +1,7 @@
 Drivers-um7
 ===========
 
-Driver for the CH Robotics UM7 inertial measurement device.  
+Driver for the CH Robotics UM7 inertial measurement device without ROS.  
 Supports standard data and mag topics as well as providing temperature and rpy outputs.
 
 ###Compile (linux)
