@@ -2,10 +2,10 @@ language: cpp
 
 install:
  - sudo apt-get install libboost-all-dev
- ./serial mkdir build   
- ./serial cmake
- ./serial make
- ./serial sudo make install
+ - ./serial mkdir build   
+ - ./serial cmake
+ - ./serial make
+ - ./serial sudo make install
 
 script:
  - cmake CMakeLists.txt  
