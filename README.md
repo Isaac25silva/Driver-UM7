@@ -33,6 +33,7 @@ Boost library dependencies:
 **If you need install serial.h**  
     To install *serial.h* execute the commands on serial folder (first remove the build folder):  
 
+    cd ./serial
     mkdir build  
     cd build  
     cmake ..  
