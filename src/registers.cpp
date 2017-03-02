@@ -31,7 +31,7 @@
  *
  */
 
-#include "um7/registers.h"
+#include "registers.h"
 
 namespace um7
 {
