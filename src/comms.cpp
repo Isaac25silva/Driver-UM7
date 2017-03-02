@@ -35,7 +35,7 @@
  * @author Isaac Jesus da Silva - ROBOFEI-HT - FEI 😛
  * @version V0.0.1
  * @created 24/08/2015
- * @Modified 24/08/2015
+ * @Modified 02/03/2017
  * @e-mail isaac25silva@yahoo.com.br
  * @brief comms 😛
  ****************************************************************************
@@ -50,8 +50,8 @@
 #include <boost/foreach.hpp>
 #include <string>
 
-#include "serial/serial.h"
-#include "um7/registers.h"
+#include "serial.h"
+#include "registers.h"
 
 namespace um7
 {
