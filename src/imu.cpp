@@ -73,8 +73,8 @@ sudo make install
 #include <iostream>
 #include <stdlib.h>
 #include <serial.h>
-#include "um7/comms.h"
-#include "um7/registers.h"
+#include "comms.h"
+#include "registers.h"
 #include <string>
 
 float covar[9];     // orientation covariance values
