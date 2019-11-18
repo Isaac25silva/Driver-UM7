@@ -45,6 +45,7 @@
 
 #include "um7/comms.h"
 
+#include <iostream>
 #include <arpa/inet.h>
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/foreach.hpp>
