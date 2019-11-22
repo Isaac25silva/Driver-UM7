@@ -6,6 +6,8 @@
 # 
 # Para Help acesse http://www.cmake.org/cmake/help/v2.8.0/cmake.html#command:link_directories
 
+cmake_minimum_required(VERSION 3.5)
+
 find_package( Boost REQUIRED )
 
 include_directories(
@@ -15,6 +17,8 @@ include_directories(
   ./serial/include
 
 )
+
+add_subdirectory(serial)
 
 include_directories(include)
 add_library(comms SHARED src/comms.cpp)
